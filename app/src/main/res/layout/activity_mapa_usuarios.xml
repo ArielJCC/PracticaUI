@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutMapa"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tvTituloMapa"
+        android:text="Ubicaciones de usuarios registrados"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="#2196F3"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <WebView
+        android:id="@+id/webViewMapa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

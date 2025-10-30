@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1090542218001",
+    "project_id": "practicaui-1aef1",
+    "storage_bucket": "practicaui-1aef1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090542218001:android:e95e56435e976d05a47ab0",
+        "android_client_info": {
+          "package_name": "com.example.practicaui"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjeB_mdq95Z1_ju0keSQZ4H3k_AxemvX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

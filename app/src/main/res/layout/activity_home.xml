@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/txtTituloHome"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Persistencia de datos con ROOM"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btnIrRegistro"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Registrar Usuario"
+        app:layout_constraintTop_toBottomOf="@id/txtTituloHome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/btnVerRegistros"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ver Registros Guardados"
+        app:layout_constraintTop_toBottomOf="@id/btnIrRegistro"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+
+    <Button
+        android:id="@+id/btnVerUbicacion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ver Ubicaciones"
+        app:layout_constraintTop_toBottomOf="@id/btnVerRegistros"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+    android:id="@+id/btnVerMapa"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Ver Ubicaciones"
+    app:layout_constraintTop_toBottomOf="@id/btnVerRegistros"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="16dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
