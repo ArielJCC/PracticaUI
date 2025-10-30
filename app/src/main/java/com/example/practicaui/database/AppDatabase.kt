@@ -30,7 +30,7 @@ abstract class AppDatabase: RoomDatabase() {
                 val instance = Room.databaseBuilder(
                     context.applicationContext,
                     AppDatabase::class.java,
-                    "appseptimob.db"
+                    "appseptimoA.db"
                 )
                     // Conserva datos aplicando la migración:
                     .addMigrations(MIGRATION_2_3)
