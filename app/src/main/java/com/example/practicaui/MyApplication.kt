@@ -8,8 +8,15 @@ import com.google.firebase.firestore.FirebaseFirestore
 class MyApplication : Application() {
     override fun onCreate() {
         super.onCreate()
-        // Inicializar Firebase
-        FirebaseApp.initializeApp(this)
+        // Inicializar Firebase y loggear el bucket (diagnóstico)
+        val app = FirebaseApp.initializeApp(this)
+        val bucket = try {
+            app?.options?.storageBucket
+        } catch (e: Exception) {
+            null
+        }
+        Log.d("MyApplication", "Firebase initialized. storageBucket=$bucket")
+
         // Activar logging de Firestore para desarrollo
         try {
             FirebaseFirestore.setLoggingEnabled(true)
